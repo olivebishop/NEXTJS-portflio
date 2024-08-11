@@ -6,7 +6,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: 'Olive Bishop - Software Developer | Web Applications & Portfolio',
   description: 'Olive Bishop, a software developer from Mombasa, Kenya, crafts seamless web applications. Explore my portfolio featuring Next.js, Tailwind CSS, and more',
