@@ -1,11 +1,11 @@
 "use client";
 import { FaHtml5, FaCss3Alt, FaReact, FaVuejs, FaPhp } from 'react-icons/fa';
-import { SiTailwindcss, SiLaravel, SiNodedotjs, SiFlutter, SiMysql, SiPostgresql, SiMongodb, SiPrisma, SiSequelize, SiDocker, SiPostman } from 'react-icons/si';
+import { SiTailwindcss, SiLaravel, SiNodedotjs, SiMysql, SiPostgresql, SiMongodb, SiPrisma, SiSequelize, SiDocker, SiPostman } from 'react-icons/si';
 import { FaGolang } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
-import { TbBrandReactNative } from "react-icons/tb";
 
-export default function Hero() {
+
+export default function AboutUs() {
   const skills = {
     frontend: [
       { Icon: FaHtml5, name: 'HTML5' },
