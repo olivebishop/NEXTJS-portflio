@@ -44,10 +44,6 @@ export default function RootLayout({
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Olive Bishop - Software Developer" />
-        <meta name="twitter:description" content="Explore the portfolio of Olive Bishop, a software developer from Mombasa, Kenya." />
-        <meta name="twitter:image" content="/og-image.png" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
