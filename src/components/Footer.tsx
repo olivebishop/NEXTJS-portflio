@@ -15,8 +15,9 @@ const Footer = () => {
     return (
         <footer className="bg-background text-foreground py-4 px-6 flex justify-between items-center z-20 relative">
             <div>
-                © {new Date().getFullYear()} Olive Bishop. All rights reserved.
+                © {new Date().getFullYear()} <a href="https://olivebishop.vercel.app" target="_blank" rel="noopener noreferrer">Olive Bishop🦉</a>. All rights reserved.
             </div>
+
             <div className="flex items-center space-x-4">
                 <Button
                     variant="ghost"
