@@ -8,11 +8,6 @@ import { Textarea } from "@/components/ui/textarea"
 export default function ContactUs() {
 	return (
 		<div className=" mt-40 relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
-			<div className="text-center">
-				<h1 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-neutral-200 mb-8">
-					Contact Us
-				</h1>
-			</div>
 			<div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
 				<section className="py-6 ">
 					<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
