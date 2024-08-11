@@ -1,4 +1,3 @@
-// components/Footer.tsx
 "use client"
 
 import { useTheme } from "next-themes"
@@ -14,7 +13,7 @@ const Footer = () => {
     }
 
     return (
-        <footer className="bg-background text-foreground py-4 px-6 flex justify-between items-center">
+        <footer className="bg-background text-foreground py-4 px-6 flex justify-between items-center z-20 relative">
             <div>
                 © {new Date().getFullYear()} Olive Bishop. All rights reserved.
             </div>
@@ -33,4 +32,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
