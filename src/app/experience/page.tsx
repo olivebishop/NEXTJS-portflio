@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { experiences } from "@/utils"
-import { MdMailOutline } from "react-icons/md";
+
 
 interface Experience {
   date: string;
