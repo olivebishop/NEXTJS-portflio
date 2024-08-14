@@ -1,7 +1,8 @@
-import { FaHtml5, FaCss3Alt, FaReact, FaVuejs, FaPhp } from 'react-icons/fa';
-import { SiTailwindcss, SiLaravel, SiNodedotjs, SiMysql, SiPostgresql, SiMongodb, SiPrisma, SiSequelize, SiDocker, SiPostman } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaReact, FaVuejs } from 'react-icons/fa';
+import { SiTailwindcss, SiLaravel,  SiMysql, SiPostgresql, SiMongodb, SiPrisma, SiSequelize, SiDocker, SiPostman, SiExpress } from 'react-icons/si';
 import { FaGolang } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
+
 
 // Define the skills object
 export const skills = {
@@ -13,10 +14,10 @@ export const skills = {
     { Icon: FaVuejs, name: 'Vue.js' },
   ],
   backend: [
+    { Icon:  SiExpress, name: '' },
     { Icon: SiLaravel, name: 'Laravel' },
-    { Icon: SiNodedotjs, name: 'Node.js' },
     { Icon: FaGolang, name: 'Go' },
-    { Icon: FaPhp, name: 'PHP' },
+    
   ],
   databases: [
     { Icon: SiMysql, name: 'MySQL' },
@@ -24,6 +25,7 @@ export const skills = {
     { Icon: SiMongodb, name: 'MongoDB' },
   ],
   tools: [
+  
     { Icon: SiPrisma, name: 'Prisma' },
     { Icon: SiSequelize, name: 'Sequelize' },
     { Icon: SiPostman, name: 'Postman' },
