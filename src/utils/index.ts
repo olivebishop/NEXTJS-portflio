@@ -14,7 +14,7 @@ export const skills = {
     { Icon: FaVuejs, name: 'Vue.js' },
   ],
   backend: [
-    { Icon:  SiExpress, name: '' },
+    { Icon:  SiExpress, name: 'Express' },
     { Icon: SiLaravel, name: 'Laravel' },
     { Icon: FaGolang, name: 'Go' },
     
