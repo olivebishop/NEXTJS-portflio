@@ -1,11 +1,13 @@
 'use client'
-
 import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import { projects } from '../../utils'
+import SkeletonCard from '@/components/SkeletonCard' 
 
-const DynamicProjectCard = dynamic(() => import('../../components/ProductCard'), { ssr: false })
-
+const DynamicProjectCard = dynamic(() => import('../../components/ProductCard'), {
+    ssr: false,
+    loading: () => <SkeletonCard /> 
+})
 export default function Projects() {
     const [isClient, setIsClient] = useState(false)
 
@@ -19,9 +21,15 @@ export default function Projects() {
                 Projects
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                {isClient && projects.map((project, index) => (
-                    <DynamicProjectCard key={index} project={project} />
-                ))}
+                {isClient ? (
+                    projects.map((project, index) => (
+                        <DynamicProjectCard key={index} project={project} />
+                    ))
+                ) : (
+                    Array(4).fill(0).map((_, index) => (
+                        <SkeletonCard key={index} />
+                    ))
+                )}
             </div>
         </div>
     )
