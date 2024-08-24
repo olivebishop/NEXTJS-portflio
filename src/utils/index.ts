@@ -75,3 +75,44 @@ const experiences: Experience[] = [
 ];
 
 export { experiences }; 
+
+//projects data
+export interface Project {
+  title: string;
+  description: string;
+  image: string;
+  tech: string;
+  demoLink: string;
+}
+
+export const projects: Project[] = [
+  {
+    title: "Poet Landing Page",
+    description: "A responsive landing page for a Poet with slider animation, highlighting details about the poet.",
+    image: "/images/poet_blog.png",
+    tech: "HTML, Tailwind CSS",
+    demoLink: "https://revolutionaryspitter.netlify.app/"
+  },
+  {
+    title: "Artist Landing Page",
+    description: "A responsive landing page for a music artist, highlighting artist details. Inspired by Figma designs.",
+    image: "/images/artist_blog.png",
+    tech: "HTML, CSS",
+    demoLink: "https://cardiacpoet.netlify.app/"
+  },
+  {
+    title: "Mfanyikazi Abroad",
+    description: "Final year project, monitoring Kenyan job seekers in Middle East countries and providing assistance.",
+    image: "/images/mfanyikazi.png",
+    tech: "React, Tailwind CSS, Express, MySQL",
+    demoLink: "https://mfanyikazi--abroad.vercel.app/"
+  },
+  {
+    title: "Car Reservation App",
+    description: "Car reservations UI inspired by figma design print. Users can reserve cars and view available cars.",
+    image: "/images/car-rent.png",
+    tech: "React, Tailwind CSS, Bootstrap",
+    demoLink: "https://aspect-car-rental.vercel.app/"
+  }
+]
+

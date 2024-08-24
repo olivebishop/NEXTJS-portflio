@@ -10,12 +10,12 @@ export default function Home() {
     <div
     className="space-y-10 mt-10 overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element-dark.svg')]"
   >
-      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
+      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10 mt-6">
         {/* Announcement Banner */}
         <div className="flex justify-center px-3">
           <a
-            className="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-xs sm:text-sm md:text-base lg:text-lg text-green-600 py-1 ps-3 rounded-full transition hover:border-gray-300 focus:outline-none focus:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:text-green-600 dark:hover:border-neutral-600 dark:focus:border-neutral-600"
-            href="#"
+            className="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-xs sm:text-sm md:text-base lg:text-md text-green-600 py-1 ps-3 rounded-full transition hover:border-gray-300 focus:outline-none focus:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:text-green-600 dark:hover:border-neutral-600 dark:focus:border-neutral-600"
+            href="/contact"
           >
             <span className="py-1.5 px-2.5 animate-pulse inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-xs sm:text-sm md:text-base lg:text-lg text-green-600 dark:bg-neutral-700 dark:text-green-600">
               <FaCircle />
@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="mt-5 max-w-3xl text-center mx-auto">
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 dark:text-neutral-400">
-            High-level experience in software design and development knowledge, producing quality work.
+          I&apos;m a Software Developer who believes in building creative and modern web and mobile apps. Inspired by <strong>Kaizen</strong>, strive for continuous learning and improvement, always seeking innovative ways to refine my skills and knowledge.
           </p>
         </div>
         {/* End Description */}

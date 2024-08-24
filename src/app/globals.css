@@ -1,7 +1,21 @@
+.trail {
+  offset-path: path("M0,0 L100,0 L100,100 L0,100 Z"); /* Example path */
+  offset-anchor: 50% 50%;
+  animation: trail 6s infinite linear;
+}
+
+@keyframes trail {
+  to {
+    offset-distance: 100%;
+  }
+}
+
+/* Rest of your Tailwind base, components, and utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Other custom CSS */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -57,9 +71,7 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
