@@ -47,8 +47,8 @@ interface Experience {
 // Define the experiences array
 const experiences: Experience[] = [
   {
-    date: "2023 - Present",
-    title: "Frontend Developer",
+    date: "Mar, 2023 - August, 2024",
+    title: "Frontend Engineer/ Bug Master",
     company: "Payd, Nairobi",
     description: "Focused on creating seamless user experiences and robust front-end solutions.",
     tasks: [
@@ -60,7 +60,7 @@ const experiences: Experience[] = [
     ],
   },
   {
-    date: "2023",
+    date: "Nov, 2023 - March, 2024",
     title: "Frontend Developer Intern",
     company: "Payd, Nairobi",
     description: "Gained valuable experience in frontend development and collaboration.",

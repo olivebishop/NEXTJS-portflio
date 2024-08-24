@@ -7,9 +7,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <ul className="flex justify-around md:justify-center md:max-w-3xl md:mx-auto space-x-2 md:space-x-8 py-3">
           <NavItem href="/" icon={<FaHome />} />
-          {/* <NavItem href="/projects" icon={<FaChartBar />} /> */}
-          <NavItem href="/experience" icon={<FaBook />} />
           <NavItem href="/about" icon={<FaUser />} />
+          <NavItem href="/experience" icon={<FaBook />} />
+          <NavItem href="/projects" icon={<FaChartBar />} /> 
           <NavItem href="/contact" icon={<FaEnvelope />} />
         </ul>
       </div>
