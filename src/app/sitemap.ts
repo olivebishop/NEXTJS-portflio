@@ -5,31 +5,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: "https://hendrilgen.netlify.app",
+      url: "https://olive-portfolio.vercel.app/",
       lastModified,
       changeFrequency: "daily",
       priority: 1,
     },
     {
-      url: "https://hendrilgen.netlify.app/about",
+      url: "https://olive-portfolio.vercel.app/about",
       lastModified,
       changeFrequency: "daily",
       priority: 0.8,
     },
     {
-      url: "https://hendrilgen.netlify.app/experience",
+      url: "https://olive-portfolio.vercel.app/experience",
       lastModified,
       changeFrequency: "daily",
       priority: 0.8,
     },
     {
-      url: "https://hendrilgen.netlify.app/projects",
+      url: "https://olive-portfolio.vercel.app/projects",
       lastModified,
       changeFrequency: "daily",
       priority: 0.8,
     },
     {
-      url: "https://hendrilgen.netlify.app/contact",
+      url: "https://olive-portfolio.vercel.app/contact",
       lastModified,
       changeFrequency: "daily",
       priority: 0.5,

@@ -70,7 +70,7 @@ export default function ContactUs() {
 								<span className="mb-1 text-sm sm:text-base">Email address</span>
 								<Input
 									type="email"
-									placeholder="olivebishop@gmail.com"
+									placeholder="olivehendrilgen1@gmail.com"
 									className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
 								/>
 							</label>
